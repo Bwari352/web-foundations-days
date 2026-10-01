@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>QuickNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <p>Capture Ideas before they disappear.</p>
+    </header>
+
+    <main>
+      <h2>About QuickNotes</h2>
+      <p>
+        QuickNotes is a simple web application that allows you to capture your
+        ideas and notes quickly before they disappear.
+      </p>
+      <p>
+        With QuickNotes, you can easily add new notes, view your existing notes
+        and keep track of your ideas in one convenient place.
+      </p>
+
+      <section>
+        <h2>How to use QuickNotes</h2>
+        <ol>
+          <li>Type your note in the input field.</li>
+          <li>Click the "Add Note" button to save your note.</li>
+          <li>Your notes will be displayed in the list below.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul class="features">
+          <li>Add new notes quickly.</li>
+          <li>View your existing notes.</li>
+          <li>Simple and intuitive interface.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Keyboard Shortcuts</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcut</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ctrl + N</td>
+              <td>Add a new note</td>
+            </tr>
+            <tr>
+              <td>Ctrl + S</td>
+              <td>Save the current note</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Feedback</h2>
+        <form id="feedback-form">
+          <label for="name-input">Name</label>
+          <input
+            type="text"
+            id="name-input"
+            name="name"
+            placeholder="Type your name..."
+            required
+          />
+          <label for="email-input">Email</label>
+          <input
+            type="email"
+            id="email-input"
+            name="email"
+            placeholder="Type your email..."
+            required
+          />
+          <label for="feedback-input">Feedback</label>
+          <textarea
+            id="feedback-input"
+            name="feedback"
+            placeholder="Type your feedback here..."
+            required
+          ></textarea>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during web Foundations.</p>
+    </footer>
+  </body>
+</html>

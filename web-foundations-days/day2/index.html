@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>QuickNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <p>Capture Ideas before they disappear.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Add a Note</h2>
+
+        <form id="noteForm">
+          <label for="note-input">New note</label>
+          <input
+            type="text"
+            id="note-input"
+            placeholder="Type your note here..."
+          />
+          <button type="submit" id="note-button">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Your Notes</h2>
+        <p id="notes-count">You have 2 notes.</p>
+        <ul id="notes-list">
+          <li class="note">Revise HTML Forms</li>
+          <li class="note">Push my code to Github</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during web Foundations.</p>
+    </footer>
+  </body>
+</html>
