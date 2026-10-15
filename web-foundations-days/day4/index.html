@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes- App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Notes</h1>
+
+      <label for="note-text">Add a note:</label>
+      <textarea
+        id="note-text"
+        rows="8"
+        placeholder="Type your note here..."
+      ></textarea>
+      <div class="counters">
+        <p id="char-count">Characters: 0</p>
+        <p id="word-count">Words: 0</p>
+      </div>
+      <div class="buttons">
+        <button id="clear-btn" type="button">Clear</button>
+        <button id="theme-toggle" type="button">Dark Mode</button>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
